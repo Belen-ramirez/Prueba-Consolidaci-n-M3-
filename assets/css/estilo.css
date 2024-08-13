@@ -58,9 +58,9 @@
 .chat{
     display: flex;
     align-items: center;
-    background-color: orange;
-
+    background-color: green;
 }
+
 .chat__item{
     width: 80px;
     height: 80px;
@@ -74,3 +74,56 @@
     
 
 }
+/*panel derecho estilos*/
+.chat-talk{
+position: relative;
+width: 100%;
+height: calc(100% - 120px);
+padding: 50px;
+overflow-y: auto;
+}
+
+.chat-talk__bubble{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.chat-talk__bubble--left{
+
+}
+.chat-talk__bubble--right{
+    
+}
+.chat-talk__content{
+    
+}
+
+.search{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.search div{
+    width: 100%;
+}
+
+.search div input{
+    width: 100%;
+    outline: none;
+    border: none;
+    background: #fff;
+    padding: 6px;
+    height: 38px;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+
